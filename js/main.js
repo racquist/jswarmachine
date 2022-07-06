@@ -34,16 +34,13 @@ const pecas = {
         "velocidade": -2
     }
 }
+
 roboCor.forEach((elemento)=>{
     elemento.addEventListener("click", (evento) => {
-       console.log(evento.target.alt)
+        console.log(evento.target.alt)
         trocaImagem(evento.target.alt)
-        
     })
 })
-
-
-
 
 controle.forEach((elemento) =>{
     elemento.addEventListener("click", (evento) =>{
